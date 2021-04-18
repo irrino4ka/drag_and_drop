@@ -89,3 +89,7 @@ margin-top: 120px;
     width: 300px;
     height: 300px;
 }
+
+#canvas_id {
+    border: 2px solid red;
+}
