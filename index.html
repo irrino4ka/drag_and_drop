@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @import "style.css"
+    </style>
+    <script src="https://kit.fontawesome.com/ce0366daac.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</head>
+
+<body>
+    </header>
+    <div class="container">
+        <aside>
+            <section>
+                <div class="row">
+                    <div class="container">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <nav>
+                                <ul>
+                                    <li>
+                                        <a href="#" id="drag1" data-name="Circle" draggable="true" ondragstart="drag(event)">
+                                            <i class="far fa-circle fa-2x"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-name="Square">
+                                            <i class="far fa-square fa-2x"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-name="Ellipsis">
+                                            <i class="far fa-heart fa-2x"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" data-name="Rectangle">
+                                            <i class="far fa-heart fa-2x"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </aside>
+        <main>
+            <div class="main-div"  id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+        </main>
+    </div>
+
+
+
+</body>
+
+</html>
