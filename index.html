@@ -21,17 +21,25 @@
                                 <ul>
                                     <li>
                                         <a href="#" id="drag1" data-name="Circle" draggable="true" ondragstart="drag(event)">
-                                            <i class="far fa-circle fa-2x"></i>
+                                            <svg width="36" height="36">
+                                                <circle cx="18" cy="18" r="16" stroke="black" stroke-width="2" fill-opacity="0"/>
+                                                
+                                            </svg>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" data-name="Square" id="drag2" data-name="Circle" draggable="true" ondragstart="drag(event)">
-                                            <i class="far fa-square fa-2x"></i>
+                                            <svg width="36" height="36">
+                                                <rect width="32" height="32" style="stroke-width:2; stroke:black;fill-opacity:0" />
+                                            </svg>
                                         </a>
                                     </li>
                                     <li>
                                         <a href="#" data-name="Ellipsis" id="drag3" data-name="Circle" draggable="true" ondragstart="drag(event)">
-                                            <i class="far fa-heart fa-2x"></i>
+                                            <svg height="36" width="40">
+                                                <ellipse cx="18" cy="20" rx="16" ry="10"
+                                                style="stroke:black;stroke-width:2;fill-opacity:0" />
+                                            </svg>
                                         </a>
                                     </li>
                                     <li>
@@ -49,7 +57,6 @@
         </aside>
         <main>
             <div class="main-div" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <canvas id="canvas_id" width="150" height="150" id="div1" ondrop="drop(event)" ondragover="allowDrop(event)"></canvas>
         </main>
     </div>
 

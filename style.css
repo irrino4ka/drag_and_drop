@@ -86,10 +86,6 @@ margin-top: 120px;
 
 .main-div {
     border: 2px solid green;
-    width: 300px;
-    height: 300px;
-}
-
-#canvas_id {
-    border: 2px solid red;
+    width: auto;
+    height: 100%;
 }
